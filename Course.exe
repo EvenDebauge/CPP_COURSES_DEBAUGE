@@ -1,0 +1,19 @@
+#include "Course_main.h"
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+    Course (string name){
+        course1 = 0;
+    }
+    Course::Course(){
+        pseudoJoueur = "Oui"
+    }
+
+
+    string Course::getCourse(){
+        cout << scoreCourse << endl;
+        return scoreCourse;
+    }
+
