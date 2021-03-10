@@ -76,6 +76,9 @@ using namespace std;
     pseudoJoueursChamp4 = Joueur4
         cin << "Quel est votre nom ?" : << endl;
     };
-
+// en récupérant le score de chaques joueurs dans la classe Course et en les comparant dans la fonction MeilleurScoreChamp, on peut définir le vainqueur d'une course.
     int getMeilleurScoreChamp();
         meilleurScoreChamp = 0;
+//On aditionne tout les scores  de tout les joueurs de toutes les courses et on en fait la moyenne du championnat. 
+    int getMoyenneChampo();
+        moyenneChamp = 0;
