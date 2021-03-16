@@ -8,6 +8,7 @@
 using namespace std;
 
     Course (string name){
+        course0 = 0;
         course1 = 0;
         course2 = 0;
         course3 = 0;
